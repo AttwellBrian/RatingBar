@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'android'
 
 android {
     compileSdkVersion 22
@@ -21,4 +22,14 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+repositories {
+    maven {
+        url 'https://dl.bintray.com/attwellbrian/maven/'
+    }
+}
+
+dependencies {
+    compile 'com.brianattwell.rating_bar:ratingbar:0.3'
 }
