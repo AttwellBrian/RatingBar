@@ -31,8 +31,8 @@ ext {
     // Maven metadata
     publishedGroupId = 'com.brianattwell.rating_bar'
     libraryName = 'RatingBar'
-    // Save yourself a head ache, and set this equal to the name of the library module.
-    // The artifact name needs to match the name of the library.
+    // Save yourself a head ache, and set this equal to the name of the Android Studio library
+    // module. The artifact name needs to match the name of the library.
     artifact = 'ratingbar'
 
     libraryDescription = 'A custom RatingBar view that measures its indeterminate drawable, in order to avoid the RatingBar "bleeding problem"'
